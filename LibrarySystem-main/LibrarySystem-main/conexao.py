@@ -46,12 +46,15 @@ cursor.execute('''
 #inserção de dados person
 cursor.execute("INSERT INTO person(name, phone,nationality) VALUES ('Manu','19999999999','Brazil')")
 cursor.execute("INSERT INTO person(name, phone,nationality) VALUES ('Emanoela','199949999','Brazil')")
+cursor.execute("INSERT INTO person(name, phone,nationality) VALUES ('Priscila','1130899284','Argentina')")
 #inserção de dados book
 cursor.execute("INSERT INTO book(title, publisher,genre, author, copies, max_renewals) VALUES ('João e Maria','1º edição','Infantojuvenil','Irmãos Grimm',2,2)")
 cursor.execute("INSERT INTO book(title, publisher,genre, author, copies, max_renewals) VALUES ('Dom Casmurro', 'Machado de Assis',	'Brasil','Editora do Brasil',2,2)")
+cursor.execute("INSERT INTO book(title, publisher,genre, author, copies, max_renewals) VALUES ('O Pequeno Príncipe', 'Antoine de Saint-Exupéry','França','Editora DEF',2,2)")
 
 #inserção de dados author
 cursor.execute("INSERT INTO author(name, phone, nationality) VALUES ('Stephen King','123456789','EUA')")
+cursor.execute("INSERT INTO author(name, phone, nationality) VALUES ('Machado de Assis','550392302','Brazil')")
 
 #inserção de dados loan
 cursor.execute("INSERT INTO loan(  borrow_date, return_date) VALUES ('2022-01-01','2022-01-02')")
