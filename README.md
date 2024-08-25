@@ -20,9 +20,8 @@
 
 
 # Desafio: Criação de banco de dados para um sistema de gerenciamento de biblioteca
-<p align="center">
-  <img src="https://www.parliament.uk/business/lords/work-of-the-house-of-lords/lords-library/" alt="WoMakersCode" style="max-width: 100%; height: auto;" />
-</p>
+![image](https://github.com/user-attachments/assets/d4f333f7-33f6-41c1-a163-d0cd1344f304)
+
 
 
 Nesse desafio de biblioteca foi realizado a criação de banco de dados do sistema de biblioteca seguindo os requesitos abaixo de banco de dados:
